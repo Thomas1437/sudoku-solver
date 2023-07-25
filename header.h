@@ -22,8 +22,7 @@ int		solve(int board[9][9], int pos_number);
 /*SOLVER.C*/
 
 /* MAIN.C */
-void	print_board(int **board);
-void	print_board2(int board[9][9]);
+void	print_board(int board[9][9]);
 int		main(int ac, char **av);
 /* MAIN.C */
 

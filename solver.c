@@ -62,7 +62,7 @@ int	solve(int board[9][9], int pos_number)
 
 	if (pos_number >= 81)
 	{
-		print_board2(board);
+		print_board(board);
 		return (1);
 	}
 	if (board[pos_number / 9][pos_number % 9] != 0)

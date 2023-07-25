@@ -2,7 +2,7 @@
 
 int g_solutions;
 
-void	print_board2(int board[9][9])
+void	print_board(int board[9][9])
 {
 	printf("\n");
 	for (int i = 0; i < 9; i++)
