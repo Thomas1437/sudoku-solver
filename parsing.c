@@ -39,7 +39,7 @@ int **create_board(void)
 	return (board);
 }
 
-int **parsing(void)
+int **parsing(char *file_name)
 {
 	FILE	*file;
 	char	c;
@@ -47,7 +47,7 @@ int **parsing(void)
 	int		i;
 	int		j;
 
-	file = fopen("board", "r");
+	file = fopen(file_name, "r");
 	if (!file)
 		error('f');
 	board = create_board();
